@@ -13,7 +13,7 @@
   <div id="wrapper">
     <div id="content">
       <p id="heading"> Welcome </p>
-      <a href="appointment.html">Book Appointment</a><br><br>
+      <a href="choose.html">Book Appointment</a><br><br>
 	<a href="p1_update.php">Update Profile</a><br><br>
       <a href="p_update.php">Update Password</a><br><br>
       <a href="index.php">Logout</a>
