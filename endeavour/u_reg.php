@@ -25,7 +25,7 @@
 			$mail=$_POST["mail"];
 			$age=$_POST["age"];
 		
-		 $sql="INSERT INTO patient(username,password,name,mobile,mail,age)
+		 $sql="INSERT INTO patient
 		 VALUES ('{$uname}','{$pass}','{$name}','{$mob}','{$mail}','{$age}')";
 					
 			 if($db->query($sql))

@@ -23,7 +23,7 @@
 <div id="header" style="background-image: url(image/upper.jpg); background-repeat: no-repeat; background-size: cover;"s><h1><a href="index.php">E-Book Library</a></h1></div>
   <div id="wrapper">
     <div id="content">
-       <h3 id="heading">User Login Here. </h3>
+       <h3 id="heading">Patient Login Here. </h3>
 	    <?php
 	if(isset($_POST['submit']))
 		{
@@ -36,7 +36,7 @@
 				if($s[1]==$re && $s[0]==$red)
 			{
 				
-				echo "<script>window.open('p_home.php','_self')</script>";
+				echo "<script>window.open('u_home.php','_self')</script>";
 			}
 			else
 			{
@@ -48,7 +48,7 @@
 		}
 ?>
 		<div id="center">
-		  <form action="p_home.php" method="post">
+		   <form action="<?php echo $_SERVER["PHP_SELF"]; ?>" method="post">
 		
 			<label>Username</label>
 			<input type="text" name="aname" required>

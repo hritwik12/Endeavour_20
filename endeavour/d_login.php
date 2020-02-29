@@ -48,7 +48,7 @@
 		}
 ?>
 		<div id="center">
-		  <form action="d_home.php" method="post">
+		   <form action="<?php echo $_SERVER["PHP_SELF"]; ?>" method="post">
 		
 			<label>Username</label>
 			<input type="text" name="aname" required>

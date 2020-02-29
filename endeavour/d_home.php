@@ -21,7 +21,7 @@
     <div id="content">
       <p id="heading"> Welcome </p>
 <?php
-$sql= 'select count(name) from appointment';
+$sql= 'select count(p_name) from appointment';
 			$query=mysqli_query($my,$sql);
 while($s=mysqli_fetch_row($query))
 {
